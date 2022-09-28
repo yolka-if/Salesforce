@@ -24,8 +24,4 @@ public class ContactTest extends BaseTest {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@class='toastMessage slds-text-heading--small forceActionsText']")));
         assertTrue(driver.findElement(By.xpath("//span[@class='toastMessage slds-text-heading--small forceActionsText']")).isDisplayed());
     }
-
-    //акканут криэйт тест
 }
-//привести в норм вид с фишками ндж( листнерер дискрипшен, запуск в параллели
-//создать логин пэйдж и контакт пэйдж
